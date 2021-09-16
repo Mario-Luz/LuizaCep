@@ -1,15 +1,15 @@
 const app = require('./src/app');
-const data = require('./src/data');
+const database = require('./src/data');
 
-const port = process.env.NODE_PORT || 3000;
-const dataName = process.env.DATA || 'LuizaCep';
+const port = process.env.NODE_PORT || 8000;
+const databaseName = process.env.DATABASE || 'LuizaCep';
 
 app.listen(port, () => {
-    console.log(`Servidor rodando na porta ===> ${port}`);
+	console.log(`Aplicação rodando na Porta =====> ${port}`);
 });
 
-if (data.conect(dataName)) {
-    console.log("Conexão ao MongoDB realizada com Sucesso!");
+if(database.connect(databaseName)){
+	console.log("Conexão com MongoDB realizada com Sucesso!");
 } else {
-    console.log('Erro ao conectar MongoDB');
+	console.log('Não foi possivel se conectar ao MongoDB');
 }
