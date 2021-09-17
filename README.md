@@ -38,13 +38,11 @@ para estilização da página foi utilizado ``styled-components``.
 
         #Instale os pacotes npm
         $ npm install
-        ou
-        $ yarn install
+       
         
         #Execute o Projeto
         $ npm start
-        ou
-        $ yarn start
+       
         ```
     - 3° Configurando e Instalando o Frontend
         ```
@@ -56,13 +54,11 @@ para estilização da página foi utilizado ``styled-components``.
         
         #Instale os pacotes npm
         $ npm install
-        ou
-        $ yarn install
+      
         
         #Execute o Projeto
         $ npm start
-        ou
-        $ yarn start
+ 
         ```
 
 ### Lembrete! :thought_balloon:
