@@ -81,3 +81,26 @@ Para rodar a aplicação, execute o comando: <br>
 ```console
 npm start
 ```
+### Aplicação Web
+![Web](https://i.ibb.co/H7pJZSK/web2.jpg).
+![Web](https://i.ibb.co/cNYB7gm/web1.jpg).
+
+### Testes
+![test-coverage](https://i.ibb.co/s6V1XDY/teste2.jpg).
+
+### Arquitetura MVC
+Atualmente é a arquitetura em que mais me sinto confortavel de utilizar e por esse motivo foi a escolhida para esse projeto.
+
+### Tecnologias Preferenciais:
+Escolhi NodeJS por questão de afinidade com a tecnologia, é onde me sinto mais confortavel para desenvolver.
+
+###Quando você digita a URL de um site (http://www.netshoes.com.br) no browser e pressiona enter, explique da forma que preferir, o que ocorre nesse processo do protocolo HTTP entre o Client e o Server.
+    O que espera-se como resposta - Dicas e direcionamentos:
+    · Detalhe sua linha de raciocínio;
+    · Elabore um plano de entendimento, por exemplo, lista, de forma a elencar os passos;
+    · Não copie conteúdo da internet, responda com suas palavras.
+
+1- Quando digitamos um link no navegador e pressionamos enter, o navegador faz uma requisição para o servidor atrelado ao endereço url digitado, essa requisição é do tipo GET. 
+2- Temos 4 tipos principais de requisições dentro do protocolo HTTP, que são: GET, PUT, DELETE, POST. no caso nossa requisição enviada ao servidor é do tipo GET 
+3- O servidor por sua vez, recebe essa requisição e verifica a possibilidade de responder ou não, se for possível responder, o servidor iria enviar uma resposta ao navegador.
+4- O navegador após receber essa resposta do servidor, ira renderizar o conteúdo para o usuário.
