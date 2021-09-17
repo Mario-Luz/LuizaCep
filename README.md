@@ -96,7 +96,7 @@ Escolhi NodeJS por questão de afinidade com a tecnologia, é onde me sinto mais
     · Elabore um plano de entendimento, por exemplo, lista, de forma a elencar os passos;
     · Não copie conteúdo da internet, responda com suas palavras.
 
-1- Quando digitamos um link no navegador e pressionamos enter, o navegador faz uma requisição para o servidor atrelado ao endereço url digitado, essa requisição é do tipo GET. 
-2- Temos 4 tipos principais de requisições dentro do protocolo HTTP, que são: GET, PUT, DELETE, POST. no caso nossa requisição enviada ao servidor é do tipo GET 
-3- O servidor por sua vez, recebe essa requisição e verifica a possibilidade de responder ou não, se for possível responder, o servidor iria enviar uma resposta ao navegador.
-4- O navegador após receber essa resposta do servidor, ira renderizar o conteúdo para o usuário.
+- 1- Quando digitamos um link no navegador e pressionamos enter, o navegador faz uma requisição para o servidor atrelado ao endereço url digitado, essa requisição é do tipo GET. 
+- 2- Temos 4 tipos principais de requisições dentro do protocolo HTTP, que são: GET, PUT, DELETE, POST. no caso nossa requisição enviada ao servidor é do tipo GET 
+- 3- O servidor por sua vez, recebe essa requisição e verifica a possibilidade de responder ou não, se for possível responder, o servidor iria enviar uma resposta ao navegador.
+- 4- O navegador após receber essa resposta do servidor, ira renderizar o conteúdo para o usuário.
